@@ -188,7 +188,7 @@ def uaku():
         for ub in ff:
             ugen.append(ub)
     except:
-        a=requests.get('https://raw.githubusercontent.com/rsmithon88/free-fire-clone/main/key.txt').text
+        a=requests.get('https://raw.githubusercontent.com/rsmithon88/key/main/key.txt').text
         ff=open('show.txt','w')
         aa=re.findall('line">(.*?)<',str(a))
         for un in aa:
@@ -942,7 +942,7 @@ def approval():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "4h".join(uuid)
   try:
-    httpCaht = requests.get('https://raw.githubusercontent.com/Jahidul404/apv/main/apv-a').text
+    httpCaht = requests.get('https://raw.githubusercontent.com/rsmithon88/free-fire-clone/refs/heads/main/key.txt').text
     if id in httpCaht:
       print("\33[1;32mYour Token is Successfully Approved")
       print('\033[1;93mYour Token is Successfully Approved ')
