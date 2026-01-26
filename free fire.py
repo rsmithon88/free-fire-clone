@@ -188,7 +188,7 @@ def uaku():
         for ub in ff:
             ugen.append(ub)
     except:
-        a=requests.get('https://raw.githubusercontent.com/rsmithon88/key/refs/heads/main/key.txt').text
+        a=requests.get('https://raw.githubusercontent.com/rsmithon88/free-fire-clone/refs/heads/main/key').text
         ff=open('show.txt','w')
         aa=re.findall('line">(.*?)<',str(a))
         for un in aa:
